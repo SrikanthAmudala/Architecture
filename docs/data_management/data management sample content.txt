@@ -1,0 +1,47 @@
+## Data management techniques 
+
+Data is the lifeblood of any modern business. But with so much data available, it can be difficult to know how to store, manage, and analyze it effectively. 
+
+That's where data warehouse, data lake, lakehouse, and data mesh come in.
+
+
+
+1. **Data Warehouse:**
+- 📂 Structured Data: Designed primarily for structured data storage.
+- 📊 Analytical Focus: Optimized for query performance, typically used for business intelligence tasks.
+- 🛠 ETL Process: Data is cleansed and transformed (ETL) before it’s loaded.
+- Example: Teradata, introduced in the late 1970s, is a pioneering example of a data warehouse solution.
+- Historical Note: Became popular in the 1980s and 1990s as businesses needed more analytical power.
+
+2. **Data Lake:**
+- 🌊 Raw Data: Can store massive amounts of raw, structured, semi-structured, or unstructured data.
+- ⏱ Schema-on-Read: Data structure is defined at the read time.
+- 🛠 ELT Process: Store first, transform later.
+- Example: Amazon S3, launched in 2006, is a popular choice for building data lakes.
+- Historical Note: Gained traction in the 2010s with the rise of big data and diverse data sources.
+
+3. **Lakehouse:**
+- 🏠 Hybrid: Combines aspects of Data Warehouses and Data Lakes.
+- 📊 Unified Platform: Facilitates both BI and machine learning.
+- 🛠 Data Quality: Maintains reliable data standards.
+- Example: Databricks Delta Lake, introduced in the late 2010s.
+- Historical Note: Emerged recently, addressing the gaps between data lakes and warehouses.
+
+4. **Data Mesh:**
+- 🌐 Decentralized: Promotes domain-oriented decentralized data ownership.
+- 🚀 Scalability: Built for modern distributed systems and microservices.
+- 🤝 Collaborative: Focuses on cross-team collaboration.
+- Example: It's more of a paradigm than a product. Think of it as a decentralized approach akin to how microservices decentralized traditional app architecture.
+- Historical Note: Started gaining attention in the early 2020s, building on the lessons of past architectures.
+
+
+In essence:
+- Warehouse: Structured, analytical powerhouses.
+- Lake: Massive, diverse data reservoirs.
+- Lakehouse: The union of both worlds.
+- Mesh: Decentralized, scalable futures.
+
+Remember, the ideal choice aligns with your business objectives, needs, and infrastructure.
+
+
+
